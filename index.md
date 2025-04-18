@@ -1,4 +1,5 @@
 ---
+layout: single
 mermaid: true
 mathjax: true
 title: Spring 2025 Research
