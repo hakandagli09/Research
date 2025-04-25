@@ -4,7 +4,7 @@ mermaid: true
 mathjax: true
 ---
 
-# Spring 2025 Research
+### Overview
 
 This project explores Sparse Convolutional Neural Networks for object detection in low-visibility environments.
 
