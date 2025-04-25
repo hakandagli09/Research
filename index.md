@@ -8,7 +8,7 @@ title: Neural Networks and Their Applications
 ## Overview
 This project explores Sparse Convolutional Neural Networks for object detection in low-visibility environments.
 
-#### Goals
+### Project Goals
 - Understand the basic architecture and uses of Neural Networks
 - Learn how to code a basic neural network from scratch
 - Understand the basic architecture and use of CNNs
