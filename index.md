@@ -14,5 +14,7 @@ This project explores Sparse Convolutional Neural Networks for object detection 
 - Understand the basic architecture and use of CNNs
 - Improve detection accuracy in fog and low-light
 
-### Basic NN
-- [Basic Neural Network Notebook](./Basic_NN.html)
+### Building a Simple Neural Network for Classification
+Check out the rendered version of the basic neural network in action:
+
+👉 [Basic Neural Network Notebook (HTML)](./Basic_NN.html)
