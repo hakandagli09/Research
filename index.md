@@ -17,4 +17,4 @@ This project explores Sparse Convolutional Neural Networks for object detection 
 ### Building a Simple Neural Network for Classification
 Check out the rendered version of the basic neural network in action:
 
-👉 [Basic Neural Network Notebook (HTML)](./Basic_NN.html)
+👉 [Basic Neural Network](./Basic_NN.html)
