@@ -88,7 +88,7 @@ The following plots show the training and validation accuracy and loss across 5 
   </div>
 
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="images/CNN training loss per fold.png" width="100%" style="border-radius: 6px;"><br>
+    <img src="images/cnn_training_loss_per_fold.png" width="100%" style="border-radius: 6px;"><br>
     <small><strong>Training Loss per Fold (CNN)</strong></small>
   </div>
 
