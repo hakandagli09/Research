@@ -2,7 +2,7 @@
 layout: single
 mermaid: true
 mathjax: true
-title: "title: Hakan Dagli | Neural Networks Research"
+title: Hakan Dagli | Neural Networks Research
 ---
 
 <!-- TITLE BANNER -->
