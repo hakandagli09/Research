@@ -1,11 +1,10 @@
+<img src="images/wmlogo.png" alt="William & Mary Logo" width="150" style="margin-bottom: 20px;">
 ---
 layout: single
 mermaid: true
 mathjax: true
 title: Neural Networks and Their Applications
 ---
-
-<img src="images/wmlogo.png" alt="William & Mary Logo" width="150" style="margin-bottom: 20px;">
 
 Welcome to my research project where I explore and compare traditional neural networks, convolutional neural networks (CNNs), and sparse CNNs using PyTorch. The project culminates in applying sparse architectures to the **Cityscapes** dataset — a real-world dataset used for autonomous vehicle vision tasks.
 
