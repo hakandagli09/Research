@@ -4,8 +4,6 @@ mermaid: true
 mathjax: true
 title: Neural Networks and Their Applications
 ---
-
-# Sparse Convolutional Neural Networks for Image Analysis
 Welcome to my research project where I explore and compare traditional neural networks, convolutional neural networks (CNNs), and sparse CNNs using PyTorch. The project culminates in applying sparse architectures to the **Cityscapes** dataset — a real-world dataset used for autonomous vehicle vision tasks.
 ---
 
