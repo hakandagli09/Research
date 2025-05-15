@@ -2,7 +2,7 @@
 layout: single
 mermaid: true
 mathjax: true
-title: ""
+title: "title: Hakan Dagli | Neural Networks Research"
 ---
 
 <!-- TITLE BANNER -->
@@ -55,7 +55,7 @@ Before diving into vision models, I implemented a basic neural network to classi
 - Loss functions like CrossEntropy
 - Accuracy tracking and visualization
 
-<a href="./Basic_NN.html" style="display: inline-block; background-color: #004f2d; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">View Neural Network Demo</a>
+<a href="./Basic_NN.html" style="display: inline-block; background-color: #004f2d; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">View Neural Network Demo Code</a>
 
 ___
 
@@ -68,10 +68,10 @@ ___
 
 Using convolutional architectures, I tested my knowledge further by building a Convolutional Neural Network with another benchmark dataset (Fashion MNIST). 
 
-<a href="./Final_CNN.html" style="display: inline-block; background-color: #004f2d; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">View Neural Network Demo</a>
+<a href="./Final_CNN.html" style="display: inline-block; background-color: #004f2d; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">View CNN Demo Code</a>
 ___
 
-## CNN Benchmark Dataset Training & Validation Metrics (5-Fold Cross-Validation)
+## CNN Benchmark Fashion MNIST Dataset Training & Validation Metrics (5-Fold Cross-Validation)
 
 The following plots show the training and validation accuracy and loss across 5 folds. These visualizations help evaluate how well the model generalized and whether overfitting occurred.
 
@@ -99,13 +99,19 @@ The following plots show the training and validation accuracy and loss across 5 
 
 </div>
 
-After mastering standard neural nets, I transitioned into real-world image tasks using convolutional architectures:
+After mastering standard neural nets and CNNs with benchmark datasets, I transitioned into real-world image tasks using convolutional architectures:
 
 - <strong>CNNs</strong> were trained on downsampled Cityscapes images for pixel-level classification.
 - A <strong>mini U-Net</strong> was implemented to recover resolution lost from pooling layers.
 - I explored <strong>sparse CNNs</strong>, which ignore uninformative regions (like sky) to speed up computation.
+  
+<a href="./Sparse_CNN_CityScapes.html" style="display: inline-block; background-color: #004f2d; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">View Sparse CNN Demo Code</a>
 
 > This evolution allowed me to explore the <strong>trade-off between model complexity, accuracy, and speed</strong> — critical for edge deployment.
+
+Due to limited training resources and the complexity of the dataset, I was unable to achieve optimal segmentation performance. The segmentation model did not seem to learn anything meaningful yet. However, if I decide to pursue further research with this dataset, the performance of a future model could improve. 
+
+> In the future, I’d like to test a full-size U-Net on higher-resolution Cityscapes images or experiment with pre-trained encoders for improved learning efficiency.
 
 ___
 
@@ -142,3 +148,7 @@ ___
 - <a href="https://github.com/hakandagli09/Research" target="_blank">GitHub Repo</a>
 - <a href="https://www.cityscapes-dataset.com/" target="_blank">Cityscapes Dataset</a>
 - <a href="https://pytorch.org/" target="_blank">PyTorch Docs</a>
+
+<p style="text-align: center; font-size: 14px; color: #666; margin-top: 40px;">
+Project by <strong>Hakan Dagli</strong> – William & Mary | Spring 2025
+</p>
