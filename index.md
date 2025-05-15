@@ -66,6 +66,39 @@ ___
   <p style="font-size: 14px; color: #666;">A typical CNN architecture for segmentation tasks</p>
 </div>
 
+Using convolutional architectures, I tested my knowledge further by building a Convolutional Neural Network with another benchmark dataset (Fashion MNIST). 
+
+<a href="./Final_CNN.html" style="display: inline-block; background-color: #004f2d; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">View Neural Network Demo</a>
+___
+
+## CNN Benchmark Dataset Training & Validation Metrics (5-Fold Cross-Validation)
+
+The following plots show the training and validation accuracy and loss across 5 folds. These visualizations help evaluate how well the model generalized and whether overfitting occurred.
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="images/training accuracy per fold CNN.png" width="100%" style="border-radius: 6px;"><br>
+    <small><strong>Training Accuracy per Fold (CNN)</strong></small>
+  </div>
+
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="images/validation accuracy per fold.png" width="100%" style="border-radius: 6px;"><br>
+    <small><strong>Validation Accuracy per Fold</strong></small>
+  </div>
+
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="images/CNN training loss per fold.png" width="100%" style="border-radius: 6px;"><br>
+    <small><strong>Training Loss per Fold (CNN)</strong></small>
+  </div>
+
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="images/CNN validation loss per fold.png" width="100%" style="border-radius: 6px;"><br>
+    <small><strong>Validation Loss per Fold (CNN)</strong></small>
+  </div>
+
+</div>
+
 After mastering standard neural nets, I transitioned into real-world image tasks using convolutional architectures:
 
 - <strong>CNNs</strong> were trained on downsampled Cityscapes images for pixel-level classification.
