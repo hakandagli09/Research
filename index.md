@@ -2,7 +2,7 @@
 layout: single
 mermaid: true
 mathjax: true
-title: Neural Networks and Their Applications
+title: ""
 ---
 
 <!-- TITLE BANNER -->
